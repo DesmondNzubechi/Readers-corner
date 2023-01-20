@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
   background-color:black;
   margin: 0 !important;
-  padding: 20px 5px;
+  padding: 10px 5px;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 10px;
+    margin: 0;
 
 }
 .search{
@@ -38,7 +38,7 @@
 }
 .cart{
 font-size: 20px;
-padding: 5px 20px;
+padding: 5px 10px;
 border: none;
 border-radius: 5px;
 }
@@ -53,6 +53,8 @@ border-radius: 5px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 .logo a{
     text-decoration: none;
@@ -121,20 +123,26 @@ align-items: center;
     border-radius: 5px;
 }
 .open, .close{
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
 }
 @media (max-width: 768px) {
+    .logo a{
+        font-size: 20px;
+    }
+    .booky{
+        font-size: 20px;
+    }
     .navLinks{
         justify-content: space-between;
-        margin: 30px 40px;
+        margin: 0 15px;
     }
  .links{
     display: block;
     position: fixed;
     background-color: black;
     padding: 20px 0;
-    top: 150px;
+    top: 100px;
     left: 0;
     height: 100%;
     width: 50%;
@@ -159,5 +167,12 @@ align-items: center;
  }
  .bar{
     display: flex;
+ }
+ .search input{
+    font-size: 15px;
+ }
+ .searchCart{
+    justify-content: space-between;
+    margin: 0 15px;
  }
 }

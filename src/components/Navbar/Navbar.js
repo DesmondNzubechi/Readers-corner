@@ -12,13 +12,16 @@ import  './navbar.css';
 const Navbar = () => {
     const [close, setClose] = useState(false);
     const [open, setOpen] = useState(true);
+    const [viewLinks, setViewLinks] = useState('-1000px');
     const openClicked = () => {
         setClose(true);
         setOpen(false)
+        setViewLinks(0)
     }
     const closeClicked = () => {
         setClose(false);
         setOpen(true)
+        setViewLinks('-1000px')
     }
     return (
        
@@ -34,10 +37,10 @@ const Navbar = () => {
         </div>
         <div className="navLinks">
         <div className="logo">
-            <a href="index.html">Readers lodge<BsFillBookFill className="booky" /></a>
-            
+            <a href="index.html">Readers lodge</a>
+            <BsFillBookFill className="booky" />
         </div>
-        <div className="links">
+        <div className="links" style={{left:viewLinks}}>
             <ul>
                 <li>< a href="#">Home</a></li>
                 <li>< a href="#">Featues</a></li>

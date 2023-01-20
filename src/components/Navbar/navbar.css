@@ -1,0 +1,163 @@
+.navi{
+    font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
+  margin: 0 !important;
+  padding: 20px 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.searchCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.sIcon{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.search input{
+    width: 100% !important;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    
+    background: none;
+}
+.cart{
+font-size: 20px;
+padding: 5px 20px;
+border: none;
+border-radius: 5px;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.booky{
+    font-size: 30px;
+    margin: 0 10px;
+    color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links ul{
+    margin-right: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.links li{
+    list-style: none;
+    margin: 0 10px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 22px;
+    color: lightgray;
+}
+.sign{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sign button{
+
+    outline: none;
+    margin: 0 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+   
+}
+.reg{
+    background-color: black;
+    color: #fff;
+    border: solid 2px white !important;
+}
+.logIn{
+    background-color: white;
+    border: solid 2px white ;
+}
+.bar{
+   
+    padding: 5px;
+    display: none;
+    align-items: center;
+    border-radius: 5px;
+}
+.open, .close{
+    font-size: 50px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .navLinks{
+        justify-content: space-between;
+        margin: 30px 40px;
+    }
+ .links{
+    display: block;
+    position: fixed;
+    background-color: black;
+    padding: 20px 0;
+    top: 150px;
+    left: -5000px;
+    height: 100%;
+    width: 50%;
+    transition: 1s;
+ }   
+ .links ul{
+    display: block;
+ }
+ .links ul li{
+    margin: 20px 5px;
+ }
+ .links a{
+    font-size: 25px;
+ }
+ .sign{
+   flex-direction: column;
+ }
+ .sign button{
+    margin: 15px 50% 0 0;
+    width: 110px;
+    text-align: center;
+ }
+ .bar{
+    display: flex;
+ }
+}

@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.header{
+    margin: 50px -15px;
+    padding: 80px 20px 120px 20px;
+    background-color: rgb(243, 238, 248);
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerFi{
+    font-size: 40px;
+    max-width: 400px;
+    margin-bottom: -25px;
+}
+.headerFi strong{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 900;
+}
+.headerSe{
+    font-size: 35px;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+.headerImg{
+    max-width: 500px;
+    margin-top: 80px;
+}
+.headerImg img{
+    width: 100%;
+    height: relative;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+.exploreBtn, .shopBtn {
+    margin-right:  10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+.shopBtn{
+   background-color: black;
+   color: #fff;
+   box-shadow: 3px 3px 5px  gray, 4px 4px 0 gray;
+   margin-left: 10px;
+}
+.shopBtn:hover{
+    color:black;
+    background-color: #fff;
+    transition: .7s;
+    box-shadow: 3px 3px 5px gray, -4px -4px 0 gray;
+}
+
+.exploreBtn{
+    margin-right: 10px;
+  box-shadow: 3px 3px 5px lightgrey, -5px -5px 0 black ;
+}
+.exploreBtn:hover{
+    background-color: blueviolet;
+    transition: .7s;
+    color: white;
+    box-shadow: 3px 3px 5px black, 5px 5px 0 black ;
+}
+
+@media (max-width:768px) {
+    .header{
+        display: block;
+        padding: 60px 20px 20px 40px;
+    }
+  
+    
+}

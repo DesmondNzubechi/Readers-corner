@@ -5,8 +5,11 @@ import './Features.css'
  const Features = () => {
     return(
         <div>
-          <h1>Features</h1>
+          <h1>realization</h1>
+          <h2>Bandit</h2>
+         
         </div>
+         
     )
 };
 

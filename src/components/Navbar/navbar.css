@@ -170,6 +170,7 @@ align-items: center;
  }
  .search input{
     font-size: 15px;
+    max-width: 140px !important;
  }
  .searchCart{
     justify-content: space-between;

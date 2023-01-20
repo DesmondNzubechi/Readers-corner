@@ -16,7 +16,6 @@
 }
 .headerFi strong{
     color: blueviolet;
-    font-size: 50px;
     font-weight: 900;
 }
 .headerSe{
@@ -25,7 +24,7 @@
     margin-bottom: 10px;
 }
 .headerImg{
-    max-width: 500px;
+ max-width: 600px;
     margin-top: 80px;
 }
 .headerImg img{
@@ -72,6 +71,14 @@
         display: block;
         padding: 60px 20px 20px 40px;
     }
-  
+  .headerFi{
+    font-size: 30px;
+  }
+  .headerSe{
+    font-size: 25px;
+  }
+  .headerImg{
+    margin-top: 30px;
+  }
     
 }

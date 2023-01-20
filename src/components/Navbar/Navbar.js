@@ -34,8 +34,8 @@ const Navbar = () => {
         </div>
         <div className="navLinks">
         <div className="logo">
-            <a href="index.html">Readers lodge</a>
-            <BsFillBookFill className="booky" />
+            <a href="index.html">Readers lodge<BsFillBookFill className="booky" /></a>
+            
         </div>
         <div className="links">
             <ul>

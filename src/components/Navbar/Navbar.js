@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className="navLinks">
         <div className="logo">
-            <a href="index.html">Readers lodge</a>
+            <a href="index.html">Readerslodge</a>
             <BsFillBookFill className="booky" />
         </div>
         <div className="links" style={{left:viewLinks}}>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="sign">
            
                 <button className="reg">Register</button>
-                <button className="logIn">Log In</button>
+                <button className="logIn">LogIn</button>
            
         </div>
        

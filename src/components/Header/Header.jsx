@@ -16,7 +16,7 @@ import book from "./Image/book.png";
             <button className="shopBtn">Shop Now</button>
           </div>
             </div>
-         <div className="headerImg">
+         <div className="headerImg"> 
             <img src={book} />
          </div>
         </div>

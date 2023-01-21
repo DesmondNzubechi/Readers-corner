@@ -1,7 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .header{
-    margin: 50px -15px;
+    margin: 50px -15px -15px 0;
     padding: 80px 20px 50px 20px;
     background-color: rgb(243, 238, 248);
     font-family: "poppins", sans-serif;
@@ -9,6 +9,7 @@
     justify-content: space-around;
     align-items: center;
    border-radius: 0 0 50px 50px;
+   overflow-x:hidden !important ;
 }
 .headerFi{
     font-size: 40px;

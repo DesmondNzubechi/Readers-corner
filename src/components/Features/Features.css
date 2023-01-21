@@ -1,0 +1,99 @@
+.Fea{
+   
+    margin: 0 -15px 0 0 ;
+    border-radius: 20px 20px 0 0;
+    
+}
+.fHead h1{
+    font-size: 30px;
+    text-transform: uppercase;
+margin: 50px 10px 0 10px;
+box-shadow: inset 3px 3px 5px gray, inset -3px -3px 5px lightgray;
+width: fit-content;
+padding: 5px 20px;
+border-radius: 5px;
+
+}
+.fHead{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 10px;
+}
+.featured{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 0 50px;
+}
+.featuredItem{
+display: flex;
+justify-content: center;
+}
+.features{
+ display: flex;
+ align-items: center;
+gap: 20px;
+ margin: 20px 10px;
+ box-shadow: 3px 3px 5px rgb(219, 216, 216), -3px -3px 5px rgb(245, 241, 241);
+ width: fit-content;
+ border-radius: 10px;
+ min-width: 320px;
+ padding: 10px;
+}
+.featureImgContainer{
+    max-width: 200px;
+   margin-bottom: -7px;
+}
+.featureImgContainer img{
+    width: 150px;
+   height: 190px;
+   border-radius: 10px;
+}
+.bookName{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.bookAutor{
+    font-size: 15px;
+    font-weight: 590;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.prices{
+    display: flex;
+    gap: 20px;
+    margin: 0 4px 4px 0 ;
+}
+.cPrice{
+    font-weight: 900;
+    font-size: 20px;
+}
+.dPrice{
+    color: rgb(177, 169, 169);
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.favAddBtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.favBtn{
+    background:none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: red
+    
+}
+.AddToCartBtn{
+    font-size: 15px;
+    padding: 3px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}

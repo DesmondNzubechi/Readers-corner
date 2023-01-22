@@ -31,14 +31,14 @@ export default function BestSeller() {
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
+            slidesPerView: 5,
+            spaceBetween: 10,
           },
         }}
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className="swipe" > <a href="#"><img className="swipImg"  src=" https://images4.penguinrandomhouse.com/cover/9780385474542" /></a></SwiperSlide>
+        <SwiperSlide className="swipe" > <a href="#" className="lin"><img className="swipImg"  src=" https://images4.penguinrandomhouse.com/cover/9780385474542" /></a></SwiperSlide>
         <SwiperSlide className="swipe"><img className="swipImg" src="https://images1.penguinrandomhouse.com/cover/9781984821867" /></SwiperSlide>
         <SwiperSlide className="swipe"><img className="swipImg" src='https://images1.penguinrandomhouse.com/cover/9780735211247' /></SwiperSlide>
         <SwiperSlide className="swipe"><img className="swipImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSflVQHazUTLkqbp7TQNd2ACNaif-fdgxjwrw&usqp=CAU" /></SwiperSlide>

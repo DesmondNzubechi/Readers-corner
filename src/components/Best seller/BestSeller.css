@@ -38,7 +38,7 @@ body {
   font-size: 18px;
   background: #fff;
 
-margin-bottom: 20px;
+margin-bottom: 40px;
 
 
   /* Center slide text vertically */
@@ -58,8 +58,8 @@ margin-bottom: 20px;
 
 .swiper-slide img {
   display: block;
-  width: 300px;
-  height: relative;
+  width: 220px;
+  height: 300px;
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;

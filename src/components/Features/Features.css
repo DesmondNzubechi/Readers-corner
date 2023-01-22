@@ -2,6 +2,8 @@
    
     margin: 0 -15px 0 0 ;
     border-radius: 20px 20px 0 0;
+    overflow-x: hidden;
+    background-color: white;
     
 }
 .fHead h1{
@@ -86,14 +88,23 @@ gap: 20px;
     border: none;
     outline: none;
     font-size: 25px;
-    color: red
+    color: blueviolet;
     
 }
 .AddToCartBtn{
     font-size: 15px;
-    padding: 3px 5px;
+    padding: 5px 7px;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: none;
+    
 
+}
+.AddToCartBtn:hover{
+    transition: .6s;
+    background-color: white;
+    box-shadow: 2px 2px 3px gray, -2px -2px 3px gray;
+    color: black;
+    border: none;
 }

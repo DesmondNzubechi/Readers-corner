@@ -43,9 +43,9 @@ const Navbar = () => {
         <div className="links" style={{left:viewLinks}}>
             <ul>
                 <li>< a href="#">Home</a></li>
-                <li>< a href="#">Featues</a></li>
+                <li>< a href="#">Features</a></li>
                 <li>< a href="#">Best Seller</a></li>
-                <li>< a href="#">Others</a></li>
+                <li>< a href="#">Trending</a></li>
             </ul>
             <div className="sign">
            

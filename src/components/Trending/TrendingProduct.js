@@ -83,7 +83,7 @@ const TrendingProduct = [
 
     },
     {
-        bookName: 'You should have told me',
+        bookName: 'You should have ',
         bookAutor: 'leah konen',
         bookPrice : 30,
         bookDiscount: 50,

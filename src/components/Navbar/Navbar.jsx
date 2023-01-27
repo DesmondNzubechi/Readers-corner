@@ -43,15 +43,15 @@ const Navbar = () => {
         </div>
         <div className="links" style={{left:viewLinks}}>
             <ul>
-                <li>< Link  to='/'>Home</Link></li>
-                <li>< Link  to='/features' >Features</Link></li>
-                <li>< Link to='/bestSeller'>Best Seller</Link></li>
-                <li>< Link to='/trending'>Trending</Link></li>
+                <li>< Link  to='/' onClick={closeClicked}>Home</Link></li>
+                <li>< Link  to='/features' onClick={closeClicked}>Features</Link></li>
+                <li>< Link to='/bestSeller' onClick={closeClicked}>Best Seller</Link></li>
+                <li>< Link to='/trending' onClick={closeClicked}>Trending</Link></li>
             </ul>
             <div className="sign">
            
-            <button className="reg"><Link to='signUp'>Register</Link></button>
-                <button className="logIn"> <Link to='/signIn'>LogIn</Link> </button>
+            <button className="reg"><Link to='signUp' onClick={closeClicked}>Register</Link></button>
+                <button className="logIn"> <Link to='/signIn' onClick={closeClicked}>LogIn</Link> </button>
            
         </div>
        

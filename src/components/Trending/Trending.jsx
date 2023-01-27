@@ -12,8 +12,9 @@ const Trending = ( { data }) => {
         <img src={bookImg} />
         </div>
    <div>
-    <div>
-        <AiFillStar />
+    <div className="stars">
+       
+    <AiFillStar />
         <AiFillStar />
         <AiFillStar />
         <AiFillStar />

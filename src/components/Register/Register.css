@@ -1,0 +1,127 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+.formy{
+   
+   background: white;
+   background-size: cover;
+   background-position: center;
+   backdrop-filter: blur(20px);
+    padding: 100px 10px;
+   
+}
+.signHere{
+    display: flex;
+    justify-content: center;
+}
+.signHere h1{
+  
+    text-transform: uppercase;
+    font-weight: 900;
+    box-shadow: 2px 2px 4px lightgray, -2px -2px 4px rgb(173, 173, 173);
+    padding: 10px;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+   
+}
+.signUpForm{
+   background-color: rgb(32, 32, 32);
+    width: fit-content;
+    border-radius: 20px;
+}
+form > div{
+margin: 20px;
+padding: 20px 0 0 10px;
+box-shadow:inset 2px 2px 4px lightgray, inset -2px -2px 4px rgb(218, 218, 218), inset -2px -2px 4px rgb(230, 230, 230);
+background: white;
+border-radius:10px;
+
+}
+
+form input{
+    padding: 10px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+label{
+    font-size: 15px;
+    font-weight: 900;
+padding: 5px;
+}
+.icon{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+.signU{
+    margin: 2px 2px 20px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid lightgray;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.Already{
+    font-size: 20px;
+    color: rgb(248, 245, 245);
+    margin: 20px;
+}
+.Already .link{
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+
+/* ================STYLING LOGIN PAGE=========================*/
+.signin{
+padding: 150px 20px 20px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.signI{
+   text-align: center;
+   margin-left:25px ;
+   padding: 5px 15px;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   background-color: rgb(17, 17, 17);
+   color: aliceblue;
+   text-transform: uppercase;
+   font-weight: bolder;
+  
+}
+.signI:hover{
+    transition: .5s;
+   box-shadow: 2px 2px 3px 4px lightgray, -2px -2px 3px 4px lightgray;
+    color: black;
+    background-color:#fff;
+}
+.noAcct{
+    margin-left: 25px;
+    font-size: 17px;
+}
+.signUpp{
+    margin: 0 2px;
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+}

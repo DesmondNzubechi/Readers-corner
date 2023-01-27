@@ -92,12 +92,12 @@ gap: 20px;
     
 }
 .AddToCartBtn{
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px 7px;
     background-color: black;
     color: white;
-    border-radius: 3px;
-    border: none;
+    border-radius: 5px;
+    
     
 
 }
@@ -108,10 +108,14 @@ gap: 20px;
     color: black;
     border: none;
 }
-
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
 @media (max-width: 768px) {
     .featureImgContainer img{
-        max-width: 120px;
+        max-width: 1000px;
       
        border-radius: 10px;
     }

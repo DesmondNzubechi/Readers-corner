@@ -3,18 +3,24 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { AiFillStar } from 'react-icons/ai';
 import { BsStarHalf } from 'react-icons/bs';
 import './Features.css';
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const FeatureItems = ( { data }) => {
+    useEffect(() => {
+        Aos.init();
+      }, []);
     const {bookName, bookAutor, bookPrice, bookImg, id, bookDiscount} = data;
     return (
         <div className="featuredItem">
-    <div className="features">
+    <div className="features" data-aos='fade-left' aso-data-duration='2000'>
         <div className="featureImgContainer">
         <img src={bookImg} />
         </div>
    <div>
-    <div>
-        <AiFillStar />
+    <div className="stars">
+    <AiFillStar />
         <AiFillStar />
         <AiFillStar />
         <AiFillStar />

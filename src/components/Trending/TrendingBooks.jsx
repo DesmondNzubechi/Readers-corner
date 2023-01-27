@@ -19,4 +19,4 @@ const TrendingBooks = () => {
 </div>
     )
 }
-export default TrendingBooks; 
+export default TrendingBooks;  

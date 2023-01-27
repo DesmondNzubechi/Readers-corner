@@ -6,6 +6,7 @@ import { AiOutlineAlignRight } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from "react";
 import  './navbar.css';
+import { Outlet, Link } from "react-router-dom";
 
 
 
@@ -42,15 +43,15 @@ const Navbar = () => {
         </div>
         <div className="links" style={{left:viewLinks}}>
             <ul>
-                <li>< a href="#">Home</a></li>
-                <li>< a href="#">Features</a></li>
-                <li>< a href="#">Best Seller</a></li>
-                <li>< a href="#">Trending</a></li>
+                <li>< Link  to='/'>Home</Link></li>
+                <li>< Link  to='/features' >Features</Link></li>
+                <li>< Link to='/bestSeller'>Best Seller</Link></li>
+                <li>< Link to='/trending'>Trending</Link></li>
             </ul>
             <div className="sign">
            
-                <button className="reg">Register</button>
-                <button className="logIn">LogIn</button>
+            <button className="reg"><Link to='signUp'>Register</Link></button>
+                <button className="logIn"> <Link to='/signIn'>LogIn</Link> </button>
            
         </div>
        

@@ -8,10 +8,11 @@ import TrendingBooks from './components/Trending/TrendingBooks';
 import SignUpPage from './components/Register/signUpPage';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import { Router } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import SignIn from './components/Register/signInPage';
+
+
 function App() {
  return(
    <BrowserRouter>

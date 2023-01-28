@@ -33,7 +33,7 @@
     width: fit-content;
     border-radius: 20px;
 }
-form > div{
+.form form > div{
 margin: 20px;
 padding: 20px 0 0 10px;
 box-shadow:inset 2px 2px 4px lightgray, inset -2px -2px 4px rgb(218, 218, 218), inset -2px -2px 4px rgb(230, 230, 230);
@@ -42,7 +42,7 @@ border-radius:10px;
 
 }
 
-form input{
+.form form input{
     padding: 10px;
     font-size: 15px;
     background: none;
@@ -50,7 +50,7 @@ form input{
     outline: none;
 
 }
-label{
+.form label{
     font-size: 15px;
     font-weight: 900;
 padding: 5px;

@@ -5,15 +5,15 @@ import  { HiLocationMarker } from 'react-icons/hi';
 import { BsFillTelephoneForwardFill } from 'react-icons/bs';
 import { GiChargedArrow } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai';
+import {AiFillTwitterCircle, AiFillGithub, AiFillHeart, AiFillLinkedin, AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai';
 
 
 
 
 export const Footer = () => {
     return(
-       <footer className="footer">
-       
+       <footer >
+       <div className="footer">
           <div className="Raddress">
             <h1 >Readers Lodge</h1>
             <p className="pL"><HiLocationMarker className="Licon" /> No 8 Awka South Anambra State </p>
@@ -29,8 +29,8 @@ export const Footer = () => {
               </div>
             </div>
             </div>  
-            <div>
             <div >
+            <div className="anotherFlex">
               <div className="linkSec">
               <h1>Important Links</h1>
               <div className="linkT">
@@ -55,12 +55,19 @@ export const Footer = () => {
             </div>
               </div>
              <div>
-              <form action="">
-                <div className="Newsletter"><label htmlFor="email">NewsLetter: </label><input type="email" name="Newslater" id="email" placeholder="Email Address" /><input type="button" value="Subscribe" /></div>
+              <form className="newsLetterForm" action="">
+                <div className="Newsletter"><label htmlFor="email" className="newsLabel">NewsLetter: </label><input type="email" name="Newslater" id="email" placeholder="Email Address" /><input type="button" value="Subscribe" id="sub"/></div>
               </form>
              </div>
         </div>
-             
+             </div>
+            <hr />
+            <div className="allRight">
+
+              <div>Site built out of <AiFillHeart className="hrt"/> by <strong><a href="http://nzubechukwu.netlify.app/">NZUBECHUKWU</a></strong></div>
+            <div>&copy; ReadersLodge 2023 All Right Reserved </div>
+            </div>
+
        </footer>
     )
 };

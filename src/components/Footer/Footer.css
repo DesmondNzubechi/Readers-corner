@@ -1,10 +1,11 @@
 footer{
     background-color: rgb(22, 21, 21);;
-    margin: 20px -30px 0 0;
+    margin: 40px 0 0 0;
+    overflow-x: hidden;
 }
 .footer{
     background-color: rgb(22, 21, 21);;
-    padding: 40px;
+    padding: 20px;
    
     display: flex;
     flex-direction: row;
@@ -101,6 +102,7 @@ color: azure;
     align-items: center;
     flex-wrap: nowrap;
     gap: 10px;
+    margin: 10px;
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
@@ -164,5 +166,8 @@ color: azure;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+     }
+     #sub, #newsLabel, #email{
+    font-size: 10px;
      }
 }
